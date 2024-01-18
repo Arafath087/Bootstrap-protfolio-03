@@ -1,0 +1,536 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Protfolio</title>
+    <!-- Css_link_here -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap_css_link_here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font_awesome_cdn_link_here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <!--#########
+     Navbar_section_Start 
+    #########-->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container custom_width">
+            <a class="navbar-brand" href="#hero_section_area">SB UI Kit Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_id">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_id">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link list_text" href="#hero_section_area">Home</a></li>
+
+                    <!-- Landings_link_here -->
+                    <li class="navbar-item dropdown"><a class="nav-link list_text dropdown-toggle" data-bs-toggle="dropdown" role="button" data-bs-target="#main_id" aria-expanded="false" href="">Landings</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">Action</a></li>
+                            <li><a class="dropdown-item" href="">Another Action</a></li>
+                            <li><a class="dropdown-item" href="">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="">Ducumentation</a></li>
+                        </ul>
+                    </li>  
+
+
+                    <!-- Pages_link_here -->
+                    <li class="navbar-item dropdown"><a class="nav-link list_text dropdown-toggle" data-bs-toggle="dropdown" role="button" data-bs-target="#main_id" aria-expanded="false" href="">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#landings_pages_section_area">Landing Pages</a></li>
+                            <li><a class="dropdown-item" href="#landings_pages_section_area">Page Examples</a></li>
+                            <li><a class="dropdown-item" href="#inner_pages_section_area">Inner Pages</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#landings_pages_section_area">Layouts</a></li>
+                        </ul>
+                    </li> 
+
+
+                    <!-- Documentation_link_here -->
+                    <li class="navbar-item dropdown"><a class="nav-link list_text dropdown-toggle" data-bs-toggle="dropdown" role="button" data-bs-target="#main_id" aria-expanded="false" href="">Documentation</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#inner_pages_section_area">
+                                <span>Documentation</span>
+                               <p> Usege instruction and reference</p>
+                            </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#simple_pricing_section_area">
+                                <span>Develop</span>
+                                <p>Create a landing pages</p>
+                            </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#about_section_area">    
+                                <span>Changelog</span>
+                                 <p>Updates and changes</p>
+                            </a></li>
+                        </ul>
+                    </li>  
+                </ul>
+                <a class="btn nav_btn ms-3" href="https://limon340.github.io/Bootstrap-protfolio-02/">Buy Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--#########
+     Hero_section_Start 
+    #########-->
+
+    <section id="hero_section_area">
+        <div class="container custom_width">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
+                    <div class="hero_content">
+                        <h1>Build your next project faster with SB UI Kit Pro</h1>
+                        <p>Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the development team at Start Bootstrap</p>
+                    </div>
+                    <a class="btn hero_btn" href="https://limon340.github.io/Bootstrap-protfolio-02/">View Pages
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a class="btn-link hero_link_btn" href="#">Documentation</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="hero_img">
+                        <img src="image/windows.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     Services_section_Start 
+    #########-->
+
+    <section id="services_section_area">
+        <div class="container text-center custom_width">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="services_content">
+                        <div class="services_icon pb-4">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3>Built for developers</h3>
+                        <p class="pb-5">Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="services_content">
+                        <div class="services_icon pb-4">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h3>Modern responsive design</h3>
+                        <p class="pb-5">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="services_content">
+                        <div class="services_icon pb-4">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Complete documentation</h3>
+                        <p>All of the layouts, page sections, components, and utilities are fully covered in this products docs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     Landings_pages_section_Start 
+    #########-->
+
+    <section id="landings_pages_section_area">
+        <div class="container custom_width2">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="landings_image pb-5">
+                        <img src="image/landing-portfolio.png" alt="">
+                    </div>
+                </div>
+                <!-- row_into_col -->
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- col_into_row -->
+                    <!-- col_into_1st_row -->
+                    <div class="row main_content">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="landings_title_content">
+                                <h3>Here's What You Get</h3>
+                                <p class="pb-4">When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="landing_content">
+                                <h6>Landing Pages</h6>
+                                <p>We've crafted landing page examples for many popular business and product types.</p>
+                                <a href="">Learn More</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="landing_content">
+                                <h6>Page Examples</h6>
+                                <p>Use our pre-built page examples to quickly create inner pages to your website.</p>
+                                <a href="">Learn More</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col_into_2nd_row -->
+                    <div class="row main_content">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="landing_content">
+                                <h6>Layouts</h6>
+                                <p>Our flex box based layout options make your site beautifully responsive and adaptable to any device.</p>
+                                <a href="">Learn More</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="landing_content">
+                                <h6>Modular Sections</h6>
+                                <p>All of the sections on each page are modular, so you can drop them into an existing page, or start with a new one!</p>
+                                <a href="">Learn More</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     Simple_pricing_section_Start 
+    #########-->
+
+    <section id="simple_pricing_section_area">
+        <div class="container text-center custom_width">
+            <div class="simple_pricing_content">
+                <h2>Simple Pricing</h2>
+                <p class="pb-3">Easy pricing means no suprises.</p>
+            </div>
+            <div class="row mt-5">
+                <!-- card_no_01 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                    <div class="card">
+                        <div class="card-body px-5 card_content text-start">
+                            <h6 class="bg-light mt-3 card_title1">Free</h6>
+                            <h3>
+                                <sup>$</sup>
+                                <span>0/mo</span>
+                            </h3>
+                            <ul>
+                                <li><span>1 user</span></li>
+                                <li>Community support</li>
+                                <li>Style customizer</li>
+                                <li>Custom components</li>
+                                <li>Expanded utilities</li>
+                                <li>Third-party integration</li>
+                                <li>Layout options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- card_no_02 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                    <div class="card">
+                        <div class="card-body px-5 card_content text-start">
+                            <h6 class="mt-3 text-primary card_title2">Standard</h6>
+                            <h3>
+                                <sup>$</sup>
+                                <span>19/mo</span>
+                            </h3>
+                            <ul>
+                                <li>Up to 15 users</li>
+                                <li>Email and live chat support</li>
+                                <li>Style customizer</li>
+                                <li>Custom components</li>
+                                <li>Expanded utilities</li>
+                                <li>Third-party integration</li>
+                                <li>Layout options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- card_no_03 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                    <div class="card">
+                        <div class="card-body px-5 card_content text-start">
+                            <h6 class="bg-light mt-3 card_title3">Enterprise</h6>
+                            <h3>
+                                <sup>$</sup>
+                                <span>0/mo</span>
+                            </h3>
+                            <ul>
+                                <li><span>1 user</span></li>
+                                <li>Community support</li>
+                                <li>Style customizer</li>
+                                <li>Custom components</li>
+                                <li>Expanded utilities</li>
+                                <li>Third-party integration</li>
+                                <li>Layout options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     Inner_pages_section_Start 
+    #########-->
+
+    <section id="inner_pages_section_area">
+        <div class="container custom_width text-white">
+            <!-- 1st_row -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner_pages">
+                        <div class="inner_pages_icon">
+                            <i class="fa-solid fa-question"></i>
+                        </div>
+                        <div class="inner_pages_content">
+                            <h5>What is SB UI Kit Pro?</h5>
+                            <p>SB UI Kit Pro is a fully coded, responsive, Bootstrap based UI toolkit for developers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner_pages">
+                        <div class="inner_pages_icon">
+                            <i class="fa-solid fa-question"></i>
+                        </div>
+                        <div class="inner_pages_content">
+                            <h5>What can I build with SB UI Kit Pro?</h5>
+                            <p>Build anything you want to using this UI kit! It is flexible, multipurpose, and full of tools for you to use during development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd_row -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner_pages">
+                        <div class="inner_pages_icon">
+                            <i class="fa-solid fa-question"></i>
+                        </div>
+                        <div class="inner_pages_content">
+                            <h5>Do I get free updates?</h5>
+                            <p>All of Start Bootstrap's premium products will come with updates for feature additions, bugfixes, and other small updates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner_pages">
+                        <div class="inner_pages_icon">
+                            <i class="fa-solid fa-question"></i>
+                        </div>
+                        <div class="inner_pages_content">
+                            <h5>What frameworks does it integrate with?</h5>
+                            <p>Our Angular based version of SB UI Kit Pro is built to integrate with the Angular framework!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd_row -->
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="inner_pages_title_content text-center">
+                        <h6>Get Started</h6>
+                        <h2 class="pt-4">Save time with SB UI Kit Pro</h2>
+                        <p class="pb-4">Start Bootstrap's premium UI Kit beautifully and intuitively extends the Bootstrap framework making it easy to build your next project!</p>
+                        <button class="btn text-white innner_pages_btn">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     About_section_Start 
+    #########-->
+
+    <section id="about_section_area">
+        <div class="container custom_width">
+            <!-- 1st_row -->
+            <div class="row pb-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- About_Content_Part_1 -->
+                    <div class="about_content1">
+                        <h2>Google</h2>
+                        <p class="text-primary pt-4 pb-2">"Stripe Billing enabled us to launch our subscription product, eero Plus, on schedule and with billing fully <br> integrated."</p>
+                        <h6>Mark Sieglock</h6>
+                        <h5>Head of Business Operations</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- About_Content_Part_2 -->
+                    <div class="about_content2">
+                        <h2>Instagram</h2>
+                        <p class="text-primary pt-4 pb-2">"We implemented Stripe to introduce new billing and payment models and increased our trial conversion by 300%."</p>
+                        <h6>Sylvan Boucard</h6>
+                        <h5>Payments Product Manager</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd_row -->
+            <div class="row pt-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
+                    <div class="card main_card">
+                        <div class="card-body about_card">
+                            <div class="about_icon1">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="card_body_content">
+                                <h5 class="text-primary">Work smarter, not harder</h5>
+                                <p>Learn more about how our product can save you time and effort in the long run!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
+                    <div class="card main_card">
+                        <div class="card-body about_card">
+                            <div class="about_icon2">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="card_body_content">
+                                <h5>Work smarter, not harder</h5>
+                                <p>Learn more about how our product can save you time and effort in the long run!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--#########
+     Footer_section_Start 
+    #########-->
+
+    <section id="footer_section_area">
+        <div class="container custom_width">
+            <div class="row pb-5 footer_title">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="footer_title_content">
+                        <h5>Ready to get started?</h5>
+                        <p>Get in touch or create an account.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="footer_title_btn">
+                        <button class="btn btn-primary">Contact Seles</button>
+                        <button class="btn footer_btn">Create Account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main_footer_section_area -->
+        <!-- Main_footer_section_area -->
+        <div class="container custom_width">
+            <div class="footer_content">
+                <!-- footer_1st_row -->
+                <div class="row">
+                    <!-- footer_1st_col -->
+                    <div class="col-lg-3 col-md-12 col-sm-12 pb-5">
+                        <h6 class="footer_content_title">SB UI Kit Pro</h6>
+                        <p class="list_sub_title">Build better websites</p>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                    <!-- footer_2nd_col -->
+                    <div class="col-lg-2 col-md-6 col-sm-12 pb-5">
+                        <p class="list_title">Product</p>
+                        <ul>
+                            <li><a href="">Landing</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Section</a></li>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Changelog</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer_3rd_col -->
+                    <div class="col-lg-2 col-md-6 col-sm-12 pb-5">
+                        <p class="list_title">Technical</p>
+                        <ul>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Changelog</a></li>
+                            <li><a href="">Theme Customizer</a></li>
+                            <li><a href="">Ul Kit</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer_4th_col -->
+                    <div class="col-lg-2 col-md-6 col-sm-12 pb-5">
+                        <p class="list_title">Includes</p>
+                        <ul>
+                            <li><a href="">Utilities</a></li>
+                            <li><a href="">Components</a></li>
+                            <li><a href="">Layouts</a></li>
+                            <li><a href="">Code Samples</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Affiliates</a></li>
+                            <li><a href="">Updates</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer_5th_col -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                        <p class="list_title">Legal</p>
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms and Conditions</a></li>
+                            <li><a href="">License</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer_2nd_row -->
+            <div class="row footer_end_content">
+                <div class="col mt-5">
+                    <span>Copyright © Your Website 2022</span>
+                </div>
+                <div class="col text-end mt-5">
+                    <a href="">Privacy Policy .</a> <a href="">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Bootstrap_script_link_here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
